@@ -1,14 +1,15 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
-export const Number = () => {
-    const[number,setNumber] = useState(0);
-    
-    let myNumber = (
-        <div>
-            <p>Llevas mirando este ejercicio los siguientes segundos:</p>
-            <p>
-                {/* secundero */}
-            </p>
-        </div>
-    );
+export const Number = props => {
+	let [second, setSecond] = useState(0);
+	useEffect(() => {
+		setInterval(() => {
+			setSecond(second++);
+		}, 1000);
+	}, []);
+	return (
+		<div>
+			<p>Llevas mirando este contador {second} segundos.</p>
+		</div>
+	);
 };
