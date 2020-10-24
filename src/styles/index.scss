@@ -1,13 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    font-family: 'Covered By Your Grace', cursive;
+    background: #222;
+}
+.thousand {
+    min-width: 16rem;
+    font-size: 15rem;
+    color: #db4844;
+}
+.hundred {
+    min-width: 16rem;
+    font-size: 14rem;
+    color: #f07c22;
+}
+.ten {
+    min-width: 16rem;
+    font-size: 13rem;
+    color: #f6da74;
+}
+.one {
+    min-width: 16rem;
+    font-size: 12rem;
+    color: #abcd58;
+}

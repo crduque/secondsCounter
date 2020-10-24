@@ -9,9 +9,10 @@ export const MyNumber = props => {
 		}, props.lotOfCeros);
 	}, []);
 
-	return <span>{second % 10}</span>;
+	return <span className={props.className}>{second % 10}</span>;
 };
 
 MyNumber.propTypes = {
-	lotOfCeros: PropTypes.number
+	lotOfCeros: PropTypes.number,
+	className: PropTypes.string
 };

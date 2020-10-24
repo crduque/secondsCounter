@@ -8,11 +8,12 @@ export function Home() {
 	let hundred = 100000;
 	let thousand = 1000000;
 	return (
-		<div className="mt-5">
+		<div className="text-center mt-5">
 			<p>
-				Llevas mirando este contador <MyNumber lotOfCeros={thousand} />{" "}
-				<MyNumber lotOfCeros={hundred} /> <MyNumber lotOfCeros={ten} />{" "}
-				<MyNumber lotOfCeros={one} /> segundos.
+				<MyNumber lotOfCeros={thousand} className="thousand m-4" />{" "}
+				<MyNumber lotOfCeros={hundred} className="hundred m-4" />{" "}
+				<MyNumber lotOfCeros={ten} className="ten m-4" />{" "}
+				<MyNumber lotOfCeros={one} className="one m-4" />
 			</p>
 		</div>
 	);
