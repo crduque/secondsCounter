@@ -6,6 +6,11 @@ body {
     background: #222;
     color: white;
     font-size: 4rem;
+    line-height: 1;
+}
+button {
+    border-radius: 1rem;
+    padding: 0.6rem;
 }
 .thousand {
     min-width: 16rem;
