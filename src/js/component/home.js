@@ -9,11 +9,20 @@ export function Home() {
 	let thousand = 1000000;
 	return (
 		<div className="text-center mt-5">
+			<p>Lets count...</p>
 			<p>
-				<MyNumber lotOfCeros={thousand} className="thousand m-4" />{" "}
-				<MyNumber lotOfCeros={hundred} className="hundred m-4" />{" "}
-				<MyNumber lotOfCeros={ten} className="ten m-4" />{" "}
-				<MyNumber lotOfCeros={one} className="one m-4" />
+				{" "}
+				<MyNumber
+					lotOfCeros={thousand}
+					className="thousand p-0 ml-2 mr-2"
+				/>{" "}
+				<MyNumber
+					lotOfCeros={hundred}
+					className="hundred p-0 ml-2 mr-2"
+				/>{" "}
+				<MyNumber lotOfCeros={ten} className="ten p-0 ml-2 mr-2" />{" "}
+				<MyNumber lotOfCeros={one} className="one p-0 ml-2 mr-2" />{" "}
+				seconds.
 			</p>
 		</div>
 	);

@@ -4,10 +4,12 @@
 body {
     font-family: 'Covered By Your Grace', cursive;
     background: #222;
+    color: white;
+    font-size: 4rem;
 }
 .thousand {
     min-width: 16rem;
-    font-size: 15rem;
+    font-size: 14rem;
     color: #db4844;
 }
 .hundred {
@@ -17,11 +19,11 @@ body {
 }
 .ten {
     min-width: 16rem;
-    font-size: 13rem;
+    font-size: 14rem;
     color: #f6da74;
 }
 .one {
     min-width: 16rem;
-    font-size: 12rem;
+    font-size: 14rem;
     color: #abcd58;
 }
