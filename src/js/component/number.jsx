@@ -5,7 +5,7 @@ export const MyNumber = props => {
 	let [second, setSecond] = useState(0);
 	useEffect(() => {
 		setInterval(() => {
-			setSecond(second => second + 1); // no entiendo que es ese arrow
+			setSecond(second => second + 1);
 		}, props.lotOfCeros);
 	}, []);
 
